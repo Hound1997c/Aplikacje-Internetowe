@@ -1,15 +1,15 @@
-function isEmpty(string) {
+/*function isEmpty(string) {
 	if(string.length > 0) {
 		return false;
 	}
 	return true;
-}
+}*/
 
 function isWhiteSpaceOrEmpty(str){
 	return /^[\s\t\r\n]*$/.test(str);
 } 
 
-function checkString(string, message){
+/*function checkString(string, message){
 	//alert("checkStringXD");
 	if(isWhiteSpaceOrEmpty(string)){
 		//|| isWhiteSpaceOrEmpty(string)
@@ -17,9 +17,9 @@ function checkString(string, message){
 		return false;
 	}
 	return true;
-}
+}*/
 
-function checkEmail(str){
+/*function checkEmail(str){
 	let email = /^[a-zA-Z_0-9\.]+@[a-zA-Z_0-9\.]+\.[a-zA-Z][a-zA-Z]+$/;
 	if(email.test(str))
 		return true;
@@ -27,7 +27,7 @@ function checkEmail(str){
 		alert("Podaj właściwy e-mail");
 		return false;
 	}
-}
+} */
 
 function setPanienskie(){
 	document.getElementById("tr_nazwisko_p").style.visibility="visible";
