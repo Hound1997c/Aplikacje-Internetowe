@@ -1,1 +1,0 @@
-jeszcze muszę to przetrawić

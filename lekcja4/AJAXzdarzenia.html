@@ -1,28 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8"/>
-	<title>jQuery</title>
-	<style>
-		
-	</style>
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-	<script type="text/javascript">
-		function edit() {
-			var row = $(this);
-			row.html('<input id="edit" value="'+ row.html() + '">');
-			$('#edit').blur(function() {row.text($(this).val());
-			row.one('click', edit);}).focus();
-			$('button').trigger('asdf');
-		}
-		$(function() {
-			$('td').one('click', edit);
-			$('button').bind('asdf', function() { alert('Asdf!'); });
-			$('*').unbind();
-		});
-	</script>
-</head>
-<body>
+
 	<table>
 		<tr><td>Wlazł</td></tr>
 		<tr><td>kotek</td></tr>
@@ -30,5 +6,4 @@
 		<tr><td>...</td></tr>
 		<!--script>alert('!DANGER!')</script-->
 	</table>
-</body>
-</html>
+	<button></button>
