@@ -26,6 +26,12 @@ LINK; */
 			printf("Connect failed: %s\n", mysqli_connect_error());
 			exit();
 		}
+		echo "<br><br>";
+		if($_SESSION["dodano"]==1){
+			printf("dodano nowego pracownika");
+			$_SESSION["dodano"]=0;
+			echo "<br><br>";
+		}
 		$sql = "SELECT * FROM pracownicy";
 		$result = $link->query($sql);
 		foreach ($result as $v) {

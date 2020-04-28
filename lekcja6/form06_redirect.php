@@ -25,8 +25,9 @@
 	 header("Location: form06_POST.php");
  }else{
 	$stmt->close();
+	$_SESSION["dodano"]=1;
 	header("Location: form06_GET.php");
-	$_SESSION["BadSql"]=0;
+	//$_SESSION["BadSql"]=0;
  }
  
  }

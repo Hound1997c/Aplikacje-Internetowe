@@ -21,9 +21,16 @@ $link = mysqli_connect("localhost", "scott", "tiger", "instytut");
 	 </form>
 	 </body>
 KONIEC;
-echo $_SESSION["BadSql"]."  ".$_SESSION["badIdOrName"];
-if($_SESSION["BadSql"]==1) printf("nie dalo sie sql\n");
+//echo $_SESSION["BadSql"]."  ".$_SESSION["badIdOrName"]."<br>";
+if($_SESSION["BadSql"]==1) {
+	printf("nie dalo sie sql\n");
+	$_SESSION["BadSql"]=0;
+}
+echo "<br>";
 //else printf("sql\n");
-if($_SESSION["badIdOrName"]==1) printf("zle id lub nazwisko\n");
+if($_SESSION["badIdOrName"]==1){
+	printf("zle id lub nazwisko\n");
+	$_SESSION["badIdOrName"]=0;
+}
 //else printf("idzwisko\n");
 ?>
