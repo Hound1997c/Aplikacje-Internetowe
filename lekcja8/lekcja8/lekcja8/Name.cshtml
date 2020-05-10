@@ -1,0 +1,37 @@
+﻿@{
+    Layout = null;
+    var name = "Robert Paulson";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    @{var nameList = new List<Tuple<string>>(); }
+    @for (int i = 0; i < 10; i++)
+    {
+
+        nameList.Add(
+            new Tuple<string>("His name is")
+            );
+    }
+    @if (Request.QueryString["name"]!=null)
+    {
+        name = Request["name"];
+    }
+    @{
+        <div>
+            @name
+        </div>
+    }
+
+    @foreach(var rule in rules)
+    {
+        <li>@rule</li>
+    }
+</body>
+</html>
