@@ -1,0 +1,188 @@
+* {
+box-sizing: border-box;
+margin: 0;
+font-family: Verdana;
+font-size: 16px;
+//color: black;
+//font-weight : normal;
+//text-decoration : none;
+}
+
+html,body,p {
+	padding: 0;
+}
+
+
+header {
+	display: flex;
+	flex-direction: row;
+}
+
+main {
+	display: flex;
+	flex-direction: row;
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+}
+
+.tytul {
+	font-size: 32px;
+	margin-left: 15x;
+	font-weight : bold;
+}
+
+header h2 {
+	//display: none;
+}
+
+header nav {
+	flex-grow: 2;
+	align-self: start;
+	display: flex;
+	justify-content: flex-end;
+}
+
+nav a {
+	width: 75px
+}
+
+.circle
+{
+    width:50px;
+    height:50px;
+    border-radius:25px;
+    font-size:20px;
+    color:black;
+    line-height: 25px;
+    text-align:center;
+    background:gray
+}
+
+main article {
+	margin: 15px;
+	width: 100%;
+	border-width: 2px;
+	border-style: solid;
+	flex-direction: column;
+	
+}
+
+main article p {
+	text-align: left;
+	padding: 15px;
+}
+
+main article h1 {
+	height: 50px;
+	width: 50%;
+	font-size: 1.5em;
+	display: flex;
+	justify-content: flex-end;
+	align-self: flex-end;
+	background-color: gray;
+	border-width: 2px;
+	border-style: solid;
+	
+}
+
+footer {
+	height: 100px;
+	background: gray;
+	border-width: 2px;
+	margin-top: 15px;
+	border-color: black;
+	display: flex;
+	justify-content: center;
+	direction: row;
+	align-items: center;
+	position: sticky;
+	margin-top: -10px;
+}
+
+footer p:nth-child(2) {
+  font-weight: bold;
+}
+
+.tabtorow {
+	display: flex;
+	flex-direction: row;
+}
+
+.c2 {
+	display: flex;
+	justify-content: justify-start;
+	justify-content: space-between;
+}
+.c3{
+	display: flex;
+	justify-content: justify-end;
+	align-items: flex-start;
+}
+/*.mainleft {
+  float: left;
+  width: 33.33%;
+  border: 3px solid black;
+  padding: 20px 35px;
+  margin-top: 7px;
+}
+
+.maincenter {
+  float: left;
+  width: 33.33%;
+  border: 3px solid black;
+  padding: 20px 35px;
+  margin-top: 7px;
+  overflow: hidden;
+}
+
+.mainright {
+  float: left;
+  width: 33.33%;
+  border: 3px solid black;
+  padding: 20px 35px;
+  margin-top: 7px;
+}
+div {
+	position: relative;
+}
+div h1 {
+	position: absolute;
+    top: 0px;
+    right: 0px;
+}	*/
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .mainleft {
+    width: 100%;
+  }
+  
+  .maincenter{
+	width: 100%;
+  }
+  
+  .mainright {
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 900px) {
+ main {
+ flex-wrap: wrap;
+ }
+ 
+ header h2 {
+	display: none;
+}
+
+ header nav {
+	 display: block;
+	 display: flex;
+	 justify-content: flex-end;
+	 direction: column;
+ }	 
+ 
+}
