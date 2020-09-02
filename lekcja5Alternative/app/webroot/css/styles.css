@@ -1,0 +1,9 @@
+body div {
+	display: flex;
+	direction: row;
+	background-color: yellow;
+}
+
+body div h1 {
+	color: red;
+}

@@ -1,0 +1,1161 @@
+2020-07-14 14:40:14 Error: [MissingControllerException] Controller class ProductsController could not be found.
+Exception Attributes: array (
+  'class' => 'ProductsController',
+  'plugin' => NULL,
+)
+Request URL: /poorshop/products/
+Stack Trace:
+#0 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2020-07-14 14:44:03 Error: [MissingControllerException] Controller class ProductsController could not be found.
+Exception Attributes: array (
+  'class' => 'ProductsController',
+  'plugin' => NULL,
+)
+Request URL: /poorshop/products/
+Stack Trace:
+#0 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2020-07-14 14:44:04 Error: [MissingControllerException] Controller class ProductsController could not be found.
+Exception Attributes: array (
+  'class' => 'ProductsController',
+  'plugin' => NULL,
+)
+Request URL: /poorshop/products/
+Stack Trace:
+#0 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2020-07-14 14:44:36 Error: [MissingTableException] Table products for model Product was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'products',
+  'class' => 'Product',
+  'ds' => 'default',
+)
+Request URL: /poorshop/products/
+Stack Trace:
+#0 D:\xampp\htdocs\poorshop\lib\Cake\Model\Model.php(3686): Model->setSource('products')
+#1 D:\xampp\htdocs\poorshop\lib\Cake\Model\Model.php(3053): Model->getDataSource()
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Model\Model.php(3025): Model->_readDataSource('all', Array)
+#3 D:\xampp\htdocs\poorshop\app\Controller\ProductsController.php(6): Model->find('all')
+#4 [internal function]: ProductsController->index()
+#5 D:\xampp\htdocs\poorshop\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#6 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#8 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2020-07-14 14:45:09 Error: [MissingTableException] Table products for model Product was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'products',
+  'class' => 'Product',
+  'ds' => 'default',
+)
+Request URL: /poorshop/products/
+Stack Trace:
+#0 D:\xampp\htdocs\poorshop\lib\Cake\Model\Model.php(3686): Model->setSource('products')
+#1 D:\xampp\htdocs\poorshop\lib\Cake\Model\Model.php(3053): Model->getDataSource()
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Model\Model.php(3025): Model->_readDataSource('all', Array)
+#3 D:\xampp\htdocs\poorshop\app\Controller\ProductsController.php(6): Model->find('all')
+#4 [internal function]: ProductsController->index()
+#5 D:\xampp\htdocs\poorshop\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#6 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#8 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2020-07-14 14:45:11 Error: [MissingTableException] Table products for model Product was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'products',
+  'class' => 'Product',
+  'ds' => 'default',
+)
+Request URL: /poorshop/products/
+Stack Trace:
+#0 D:\xampp\htdocs\poorshop\lib\Cake\Model\Model.php(3686): Model->setSource('products')
+#1 D:\xampp\htdocs\poorshop\lib\Cake\Model\Model.php(3053): Model->getDataSource()
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Model\Model.php(3025): Model->_readDataSource('all', Array)
+#3 D:\xampp\htdocs\poorshop\app\Controller\ProductsController.php(6): Model->find('all')
+#4 [internal function]: ProductsController->index()
+#5 D:\xampp\htdocs\poorshop\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#6 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#8 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2020-07-14 14:45:41 Error: [Error] Call to a member function find() on null
+Request URL: /poorshop/products/
+Stack Trace:
+#0 [internal function]: ProductsController->index()
+#1 D:\xampp\htdocs\poorshop\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2020-07-14 14:46:20 Error: [Error] Call to a member function find() on null
+Request URL: /poorshop/products/
+Stack Trace:
+#0 [internal function]: ProductsController->index()
+#1 D:\xampp\htdocs\poorshop\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2020-07-14 18:10:56 Error: [MissingActionException] Action ProductsController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProductsController',
+  'action' => 'view',
+)
+Request URL: /poorshop/products/view/czekolada
+Stack Trace:
+#0 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#2 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2020-07-14 19:40:55 Error: [ParseError] syntax error, unexpected '}', expecting end of file
+Request URL: /poorshop/products/
+Stack Trace:
+#0 [internal function]: App::load('ProductsControl...')
+#1 [internal function]: spl_autoload_call('ProductsControl...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(266): class_exists('ProductsControl...')
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-14 22:30:14 Error: [ParseError] syntax error, unexpected '}', expecting ';' or ','
+Request URL: /poorshop/products
+Stack Trace:
+#0 D:\xampp\htdocs\poorshop\lib\Cake\View\View.php(933): View->_evaluate('D:\\xampp\\htdocs...', Array)
+#1 D:\xampp\htdocs\poorshop\lib\Cake\View\View.php(473): View->_render('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-14 22:31:08 Error: [ParseError] syntax error, unexpected '}', expecting ';' or ','
+Request URL: /poorshop/products
+Stack Trace:
+#0 D:\xampp\htdocs\poorshop\lib\Cake\View\View.php(933): View->_evaluate('D:\\xampp\\htdocs...', Array)
+#1 D:\xampp\htdocs\poorshop\lib\Cake\View\View.php(473): View->_render('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-14 22:31:33 Error: [ParseError] syntax error, unexpected '}', expecting ';' or ','
+Request URL: /poorshop/products
+Stack Trace:
+#0 D:\xampp\htdocs\poorshop\lib\Cake\View\View.php(933): View->_evaluate('D:\\xampp\\htdocs...', Array)
+#1 D:\xampp\htdocs\poorshop\lib\Cake\View\View.php(473): View->_render('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-14 22:32:35 Error: [ParseError] syntax error, unexpected '}', expecting ';' or ','
+Request URL: /poorshop/products
+Stack Trace:
+#0 D:\xampp\htdocs\poorshop\lib\Cake\View\View.php(933): View->_evaluate('D:\\xampp\\htdocs...', Array)
+#1 D:\xampp\htdocs\poorshop\lib\Cake\View\View.php(473): View->_render('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-14 22:47:37 Error: [ParseError] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /poorshop/products
+Stack Trace:
+#0 [internal function]: App::load('ProductsControl...')
+#1 [internal function]: spl_autoload_call('ProductsControl...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(266): class_exists('ProductsControl...')
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-14 22:49:43 Error: [ParseError] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /poorshop/products
+Stack Trace:
+#0 [internal function]: App::load('ProductsControl...')
+#1 [internal function]: spl_autoload_call('ProductsControl...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(266): class_exists('ProductsControl...')
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-14 22:50:28 Error: [ParseError] syntax error, unexpected end of file
+Request URL: /poorshop/products
+Stack Trace:
+#0 D:\xampp\htdocs\poorshop\lib\Cake\View\View.php(933): View->_evaluate('D:\\xampp\\htdocs...', Array)
+#1 D:\xampp\htdocs\poorshop\lib\Cake\View\View.php(473): View->_render('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-14 22:51:04 Error: [ParseError] syntax error, unexpected ':'
+Request URL: /poorshop/products
+Stack Trace:
+#0 [internal function]: App::load('ProductsControl...')
+#1 [internal function]: spl_autoload_call('ProductsControl...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(266): class_exists('ProductsControl...')
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-14 22:52:21 Error: [ParseError] syntax error, unexpected end of file
+Request URL: /poorshop/products
+Stack Trace:
+#0 D:\xampp\htdocs\poorshop\lib\Cake\View\View.php(933): View->_evaluate('D:\\xampp\\htdocs...', Array)
+#1 D:\xampp\htdocs\poorshop\lib\Cake\View\View.php(473): View->_render('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-15 08:46:06 Error: [MissingControllerException] Controller class IndexController could not be found.
+Exception Attributes: array (
+  'class' => 'IndexController',
+  'plugin' => NULL,
+)
+Request URL: /poorshop/index
+Stack Trace:
+#0 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2020-07-15 08:47:10 Error: [MissingControllerException] Controller class IndexController could not be found.
+Exception Attributes: array (
+  'class' => 'IndexController',
+  'plugin' => NULL,
+)
+Request URL: /poorshop/index
+Stack Trace:
+#0 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2020-07-15 08:47:18 Error: [MissingControllerException] Controller class Index.ctpController could not be found.
+Exception Attributes: array (
+  'class' => 'Index.ctpController',
+  'plugin' => NULL,
+)
+Request URL: /poorshop/index.ctp
+Stack Trace:
+#0 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2020-07-15 08:48:22 Error: [MissingActionException] Action ProductsController::index.ctp() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProductsController',
+  'action' => 'index.ctp',
+)
+Request URL: /poorshop/Products/index.ctp
+Stack Trace:
+#0 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#2 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2020-07-15 08:48:33 Error: [ParseError] syntax error, unexpected end of file
+Request URL: /poorshop/Products/index
+Stack Trace:
+#0 D:\xampp\htdocs\poorshop\lib\Cake\View\View.php(933): View->_evaluate('D:\\xampp\\htdocs...', Array)
+#1 D:\xampp\htdocs\poorshop\lib\Cake\View\View.php(473): View->_render('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-15 08:53:19 Error: [ParseError] syntax error, unexpected end of file
+Request URL: /poorshop/Products/index
+Stack Trace:
+#0 D:\xampp\htdocs\poorshop\lib\Cake\View\View.php(933): View->_evaluate('D:\\xampp\\htdocs...', Array)
+#1 D:\xampp\htdocs\poorshop\lib\Cake\View\View.php(473): View->_render('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-15 09:07:23 Error: [ParseError] syntax error, unexpected end of file
+Request URL: /poorshop/Products/index
+Stack Trace:
+#0 D:\xampp\htdocs\poorshop\lib\Cake\View\View.php(933): View->_evaluate('D:\\xampp\\htdocs...', Array)
+#1 D:\xampp\htdocs\poorshop\lib\Cake\View\View.php(473): View->_render('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-15 09:07:58 Error: [ParseError] syntax error, unexpected end of file
+Request URL: /poorshop/Products/index
+Stack Trace:
+#0 D:\xampp\htdocs\poorshop\lib\Cake\View\View.php(933): View->_evaluate('D:\\xampp\\htdocs...', Array)
+#1 D:\xampp\htdocs\poorshop\lib\Cake\View\View.php(473): View->_render('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-15 09:08:05 Error: [ParseError] syntax error, unexpected end of file
+Request URL: /poorshop/Products/index
+Stack Trace:
+#0 D:\xampp\htdocs\poorshop\lib\Cake\View\View.php(933): View->_evaluate('D:\\xampp\\htdocs...', Array)
+#1 D:\xampp\htdocs\poorshop\lib\Cake\View\View.php(473): View->_render('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-15 09:08:21 Error: [ParseError] syntax error, unexpected end of file
+Request URL: /poorshop/Products/index
+Stack Trace:
+#0 D:\xampp\htdocs\poorshop\lib\Cake\View\View.php(933): View->_evaluate('D:\\xampp\\htdocs...', Array)
+#1 D:\xampp\htdocs\poorshop\lib\Cake\View\View.php(473): View->_render('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-15 11:16:56 Error: Fatal Error (64): Illegal offset type in [D:\xampp\htdocs\poorshop\app\Controller\ProductsController.php, line 8]
+2020-07-15 11:16:56 Error: [FatalErrorException] Illegal offset type
+Request URL: /poorshop/Products/index
+Stack Trace:
+#0 D:\xampp\htdocs\poorshop\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(64, 'Illegal offset ...', 'D:\\xampp\\htdocs...', 8)
+#1 D:\xampp\htdocs\poorshop\lib\Cake\Core\App.php(970): ErrorHandler::handleError(64, 'Illegal offset ...', 'D:\\xampp\\htdocs...', 8, Array)
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2020-07-15 11:24:38 Error: [ParseError] syntax error, unexpected end of file
+Request URL: /poorshop/Products/index
+Stack Trace:
+#0 D:\xampp\htdocs\poorshop\lib\Cake\View\View.php(933): View->_evaluate('D:\\xampp\\htdocs...', Array)
+#1 D:\xampp\htdocs\poorshop\lib\Cake\View\View.php(473): View->_render('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-15 11:28:48 Error: [ParseError] syntax error, unexpected end of file
+Request URL: /poorshop/Products/index
+Stack Trace:
+#0 D:\xampp\htdocs\poorshop\lib\Cake\View\View.php(933): View->_evaluate('D:\\xampp\\htdocs...', Array)
+#1 D:\xampp\htdocs\poorshop\lib\Cake\View\View.php(473): View->_render('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-15 11:29:21 Error: [ParseError] syntax error, unexpected end of file
+Request URL: /poorshop/Products/index
+Stack Trace:
+#0 D:\xampp\htdocs\poorshop\lib\Cake\View\View.php(933): View->_evaluate('D:\\xampp\\htdocs...', Array)
+#1 D:\xampp\htdocs\poorshop\lib\Cake\View\View.php(473): View->_render('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-15 11:30:33 Error: [ParseError] syntax error, unexpected end of file
+Request URL: /poorshop/Products/index
+Stack Trace:
+#0 D:\xampp\htdocs\poorshop\lib\Cake\View\View.php(933): View->_evaluate('D:\\xampp\\htdocs...', Array)
+#1 D:\xampp\htdocs\poorshop\lib\Cake\View\View.php(473): View->_render('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-15 11:30:50 Error: [ParseError] syntax error, unexpected end of file
+Request URL: /poorshop/Products/index
+Stack Trace:
+#0 D:\xampp\htdocs\poorshop\lib\Cake\View\View.php(933): View->_evaluate('D:\\xampp\\htdocs...', Array)
+#1 D:\xampp\htdocs\poorshop\lib\Cake\View\View.php(473): View->_render('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-15 11:49:04 Error: [ParseError] syntax error, unexpected end of file
+Request URL: /poorshop/Products/index
+Stack Trace:
+#0 D:\xampp\htdocs\poorshop\lib\Cake\View\View.php(933): View->_evaluate('D:\\xampp\\htdocs...', Array)
+#1 D:\xampp\htdocs\poorshop\lib\Cake\View\View.php(473): View->_render('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-15 11:51:38 Error: [ParseError] syntax error, unexpected end of file
+Request URL: /poorshop/Products/index
+Stack Trace:
+#0 D:\xampp\htdocs\poorshop\lib\Cake\View\View.php(933): View->_evaluate('D:\\xampp\\htdocs...', Array)
+#1 D:\xampp\htdocs\poorshop\lib\Cake\View\View.php(473): View->_render('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-15 17:42:45 Error: [ParseError] syntax error, unexpected '}'
+Request URL: /poorshop/Products
+Stack Trace:
+#0 [internal function]: App::load('ProductsControl...')
+#1 [internal function]: spl_autoload_call('ProductsControl...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(266): class_exists('ProductsControl...')
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-15 17:47:41 Error: [ParseError] syntax error, unexpected '}'
+Request URL: /poorshop/Products
+Stack Trace:
+#0 [internal function]: App::load('ProductsControl...')
+#1 [internal function]: spl_autoload_call('ProductsControl...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(266): class_exists('ProductsControl...')
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-15 17:47:53 Error: [ParseError] syntax error, unexpected '}'
+Request URL: /poorshop/Products
+Stack Trace:
+#0 [internal function]: App::load('ProductsControl...')
+#1 [internal function]: spl_autoload_call('ProductsControl...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(266): class_exists('ProductsControl...')
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-15 17:47:55 Error: [ParseError] syntax error, unexpected '}'
+Request URL: /poorshop/Products
+Stack Trace:
+#0 [internal function]: App::load('ProductsControl...')
+#1 [internal function]: spl_autoload_call('ProductsControl...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(266): class_exists('ProductsControl...')
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-15 17:51:02 Error: [ParseError] syntax error, unexpected '}'
+Request URL: /poorshop/Products
+Stack Trace:
+#0 [internal function]: App::load('ProductsControl...')
+#1 [internal function]: spl_autoload_call('ProductsControl...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(266): class_exists('ProductsControl...')
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-15 17:51:02 Error: [ParseError] syntax error, unexpected '}'
+Request URL: /poorshop/Products
+Stack Trace:
+#0 [internal function]: App::load('ProductsControl...')
+#1 [internal function]: spl_autoload_call('ProductsControl...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(266): class_exists('ProductsControl...')
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-15 17:51:03 Error: [ParseError] syntax error, unexpected '}'
+Request URL: /poorshop/Products
+Stack Trace:
+#0 [internal function]: App::load('ProductsControl...')
+#1 [internal function]: spl_autoload_call('ProductsControl...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(266): class_exists('ProductsControl...')
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-15 17:51:03 Error: [ParseError] syntax error, unexpected '}'
+Request URL: /poorshop/Products
+Stack Trace:
+#0 [internal function]: App::load('ProductsControl...')
+#1 [internal function]: spl_autoload_call('ProductsControl...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(266): class_exists('ProductsControl...')
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-15 17:55:46 Error: [ParseError] syntax error, unexpected '}'
+Request URL: /poorshop/Products
+Stack Trace:
+#0 [internal function]: App::load('ProductsControl...')
+#1 [internal function]: spl_autoload_call('ProductsControl...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(266): class_exists('ProductsControl...')
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-20 14:51:44 Error: [ParseError] syntax error, unexpected '<'
+Request URL: /poorshop/Products
+Stack Trace:
+#0 D:\xampp\htdocs\poorshop\lib\Cake\View\View.php(933): View->_evaluate('D:\\xampp\\htdocs...', Array)
+#1 D:\xampp\htdocs\poorshop\lib\Cake\View\View.php(473): View->_render('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-20 15:54:18 Error: [Error] Call to a member function read() on null
+Request URL: /poorshop/Products/toBucket/zupa
+Stack Trace:
+#0 [internal function]: ProductsController->toBucket('zupa')
+#1 D:\xampp\htdocs\poorshop\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2020-07-20 16:08:20 Error: [Error] Call to a member function read() on null
+Request URL: /poorshop/Products/toBucket/zupa
+Stack Trace:
+#0 [internal function]: ProductsController->toBucket('zupa')
+#1 D:\xampp\htdocs\poorshop\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2020-07-20 16:10:35 Error: [ParseError] syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ','
+Request URL: /poorshop/Products
+Stack Trace:
+#0 D:\xampp\htdocs\poorshop\lib\Cake\View\View.php(933): View->_evaluate('D:\\xampp\\htdocs...', Array)
+#1 D:\xampp\htdocs\poorshop\lib\Cake\View\View.php(473): View->_render('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-20 16:37:13 Error: [Error] Call to a member function write() on null
+Request URL: /poorshop/Products/toBucket/kokos
+Stack Trace:
+#0 [internal function]: ProductsController->toBucket('kokos')
+#1 D:\xampp\htdocs\poorshop\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2020-07-20 16:39:17 Error: [Error] Call to a member function write() on null
+Request URL: /poorshop/Products/toBucket/kokos
+Stack Trace:
+#0 [internal function]: ProductsController->toBucket('kokos')
+#1 D:\xampp\htdocs\poorshop\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2020-07-20 16:40:24 Error: [Error] Call to a member function write() on null
+Request URL: /poorshop/Products/toBucket/kokos
+Stack Trace:
+#0 [internal function]: ProductsController->toBucket('kokos')
+#1 D:\xampp\htdocs\poorshop\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2020-07-20 16:40:45 Error: [Error] Call to a member function write() on null
+Request URL: /poorshop/Products/toBucket/kokos
+Stack Trace:
+#0 [internal function]: ProductsController->toBucket('kokos')
+#1 D:\xampp\htdocs\poorshop\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2020-07-20 16:40:58 Error: [ParseError] syntax error, unexpected '$session' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+Request URL: /poorshop/Products/toBucket/kokos
+Stack Trace:
+#0 [internal function]: App::load('ProductsControl...')
+#1 [internal function]: spl_autoload_call('ProductsControl...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(266): class_exists('ProductsControl...')
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-20 16:41:14 Error: [ParseError] syntax error, unexpected '$session' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+Request URL: /poorshop/Products/toBucket/kokos
+Stack Trace:
+#0 [internal function]: App::load('ProductsControl...')
+#1 [internal function]: spl_autoload_call('ProductsControl...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(266): class_exists('ProductsControl...')
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-20 16:41:28 Error: [ParseError] syntax error, unexpected '$session' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+Request URL: /poorshop/Products/toBucket/kokos
+Stack Trace:
+#0 [internal function]: App::load('ProductsControl...')
+#1 [internal function]: spl_autoload_call('ProductsControl...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(266): class_exists('ProductsControl...')
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-20 16:42:03 Error: [ParseError] syntax error, unexpected '$session' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+Request URL: /poorshop/Products/toBucket/kokos
+Stack Trace:
+#0 [internal function]: App::load('ProductsControl...')
+#1 [internal function]: spl_autoload_call('ProductsControl...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(266): class_exists('ProductsControl...')
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-20 16:42:30 Error: [ParseError] syntax error, unexpected '$session' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+Request URL: /poorshop/Products/toBucket/kokos
+Stack Trace:
+#0 [internal function]: App::load('ProductsControl...')
+#1 [internal function]: spl_autoload_call('ProductsControl...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(266): class_exists('ProductsControl...')
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-20 16:43:34 Error: [ParseError] syntax error, unexpected '$session' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+Request URL: /poorshop/Products
+Stack Trace:
+#0 [internal function]: App::load('ProductsControl...')
+#1 [internal function]: spl_autoload_call('ProductsControl...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(266): class_exists('ProductsControl...')
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-20 16:43:44 Error: [ParseError] syntax error, unexpected '$session' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+Request URL: /poorshop/Products
+Stack Trace:
+#0 [internal function]: App::load('ProductsControl...')
+#1 [internal function]: spl_autoload_call('ProductsControl...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(266): class_exists('ProductsControl...')
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-21 07:42:07 Error: [ParseError] syntax error, unexpected '$session' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+Request URL: /poorshop/Products
+Stack Trace:
+#0 [internal function]: App::load('ProductsControl...')
+#1 [internal function]: spl_autoload_call('ProductsControl...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(266): class_exists('ProductsControl...')
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-21 09:04:42 Error: [ParseError] syntax error, unexpected 'ini_restore' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)
+Request URL: /poorshop/Products
+Stack Trace:
+#0 [internal function]: App::load('ProductsControl...')
+#1 [internal function]: spl_autoload_call('ProductsControl...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(266): class_exists('ProductsControl...')
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-21 09:08:45 Error: [ParseError] syntax error, unexpected 'ini_restore' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)
+Request URL: /poorshop/Products
+Stack Trace:
+#0 [internal function]: App::load('ProductsControl...')
+#1 [internal function]: spl_autoload_call('ProductsControl...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(266): class_exists('ProductsControl...')
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-21 09:08:46 Error: [ParseError] syntax error, unexpected 'ini_restore' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)
+Request URL: /poorshop/Products
+Stack Trace:
+#0 [internal function]: App::load('ProductsControl...')
+#1 [internal function]: spl_autoload_call('ProductsControl...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(266): class_exists('ProductsControl...')
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-21 09:09:57 Error: [ParseError] syntax error, unexpected 'session_name' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)
+Request URL: /poorshop/Products
+Stack Trace:
+#0 [internal function]: App::load('ProductsControl...')
+#1 [internal function]: spl_autoload_call('ProductsControl...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(266): class_exists('ProductsControl...')
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-21 10:36:14 Error: Fatal Error (64): Constant expression contains invalid operations in [D:\xampp\htdocs\poorshop\app\Controller\ProductsController.php, line 6]
+2020-07-21 10:36:14 Error: [FatalErrorException] Constant expression contains invalid operations
+Request URL: /poorshop/Products
+Stack Trace:
+#0 D:\xampp\htdocs\poorshop\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(64, 'Constant expres...', 'D:\\xampp\\htdocs...', 6)
+#1 D:\xampp\htdocs\poorshop\lib\Cake\Core\App.php(970): ErrorHandler::handleError(64, 'Constant expres...', 'D:\\xampp\\htdocs...', 6, Array)
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2020-07-21 10:36:23 Error: [ParseError] syntax error, unexpected 'val' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)
+Request URL: /poorshop/Products
+Stack Trace:
+#0 [internal function]: App::load('ProductsControl...')
+#1 [internal function]: spl_autoload_call('ProductsControl...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(266): class_exists('ProductsControl...')
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-21 10:37:11 Error: [ParseError] syntax error, unexpected '$session' (T_VARIABLE)
+Request URL: /poorshop/Products
+Stack Trace:
+#0 [internal function]: App::load('ProductsControl...')
+#1 [internal function]: spl_autoload_call('ProductsControl...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(266): class_exists('ProductsControl...')
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-21 10:37:28 Error: [Error] Call to a member function init() on null
+Request URL: /poorshop/Products
+Stack Trace:
+#0 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#1 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#2 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2020-07-21 10:53:28 Error: Fatal Error (64): Constant expression contains invalid operations in [D:\xampp\htdocs\poorshop\app\Controller\ProductsController.php, line 6]
+2020-07-21 10:53:28 Error: [FatalErrorException] Constant expression contains invalid operations
+Request URL: /poorshop/Products
+Stack Trace:
+#0 D:\xampp\htdocs\poorshop\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(64, 'Constant expres...', 'D:\\xampp\\htdocs...', 6)
+#1 D:\xampp\htdocs\poorshop\lib\Cake\Core\App.php(970): ErrorHandler::handleError(64, 'Constant expres...', 'D:\\xampp\\htdocs...', 6, Array)
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2020-07-21 10:53:37 Error: [ParseError] syntax error, unexpected 'val' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)
+Request URL: /poorshop/Products
+Stack Trace:
+#0 [internal function]: App::load('ProductsControl...')
+#1 [internal function]: spl_autoload_call('ProductsControl...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(266): class_exists('ProductsControl...')
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-21 10:53:49 Error: [ParseError] syntax error, unexpected '$session' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+Request URL: /poorshop/Products
+Stack Trace:
+#0 [internal function]: App::load('ProductsControl...')
+#1 [internal function]: spl_autoload_call('ProductsControl...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(266): class_exists('ProductsControl...')
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-21 10:54:15 Error: [ParseError] syntax error, unexpected 'var' (T_VAR)
+Request URL: /poorshop/Products
+Stack Trace:
+#0 [internal function]: App::load('ProductsControl...')
+#1 [internal function]: spl_autoload_call('ProductsControl...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(266): class_exists('ProductsControl...')
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-21 10:54:29 Error: [CakeException] Method session does not exist
+Request URL: /poorshop/Products
+Stack Trace:
+#0 D:\xampp\htdocs\poorshop\app\Controller\ProductsController.php(10): CakeRequest->__call('session', Array)
+#1 [internal function]: ProductsController->index()
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-21 10:55:49 Error: [CakeException] Method session does not exist
+Request URL: /poorshop/Products
+Stack Trace:
+#0 D:\xampp\htdocs\poorshop\app\Controller\ProductsController.php(10): CakeRequest->__call('session', Array)
+#1 [internal function]: ProductsController->index()
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-21 12:00:14 Error: [CakeException] Method session does not exist
+Request URL: /poorshop/Products
+Stack Trace:
+#0 D:\xampp\htdocs\poorshop\app\Controller\ProductsController.php(10): CakeRequest->__call('session', Array)
+#1 [internal function]: ProductsController->index()
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-21 12:06:49 Error: [CakeException] Method session does not exist
+Request URL: /poorshop/Products
+Stack Trace:
+#0 D:\xampp\htdocs\poorshop\app\Controller\ProductsController.php(10): CakeRequest->__call('session', Array)
+#1 [internal function]: ProductsController->index()
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-21 12:11:36 Error: [CakeException] Method session does not exist
+Request URL: /poorshop/Products
+Stack Trace:
+#0 D:\xampp\htdocs\poorshop\app\Controller\ProductsController.php(10): CakeRequest->__call('session', Array)
+#1 [internal function]: ProductsController->index()
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-21 12:11:36 Error: [CakeException] Method session does not exist
+Request URL: /poorshop/Products
+Stack Trace:
+#0 D:\xampp\htdocs\poorshop\app\Controller\ProductsController.php(10): CakeRequest->__call('session', Array)
+#1 [internal function]: ProductsController->index()
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-21 12:16:59 Error: [CakeException] Method session does not exist
+Request URL: /poorshop/Products
+Stack Trace:
+#0 D:\xampp\htdocs\poorshop\app\Controller\ProductsController.php(10): CakeRequest->__call('session', Array)
+#1 [internal function]: ProductsController->index()
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-21 12:20:46 Error: [CakeException] Method session does not exist
+Request URL: /poorshop/Products
+Stack Trace:
+#0 D:\xampp\htdocs\poorshop\app\Controller\ProductsController.php(11): CakeRequest->__call('session', Array)
+#1 [internal function]: ProductsController->index()
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-21 12:25:37 Error: [CakeException] Method session does not exist
+Request URL: /poorshop/Products
+Stack Trace:
+#0 D:\xampp\htdocs\poorshop\app\Controller\ProductsController.php(11): CakeRequest->__call('session', Array)
+#1 [internal function]: ProductsController->index()
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-21 18:03:57 Error: [CakeException] Method session does not exist
+Request URL: /poorshop/Products
+Stack Trace:
+#0 D:\xampp\htdocs\poorshop\app\Controller\ProductsController.php(11): CakeRequest->__call('session', Array)
+#1 [internal function]: ProductsController->index()
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-21 18:04:33 Error: [CakeException] Method session does not exist
+Request URL: /poorshop/Products
+Stack Trace:
+#0 D:\xampp\htdocs\poorshop\app\Controller\ProductsController.php(11): CakeRequest->__call('session', Array)
+#1 [internal function]: ProductsController->index()
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-21 18:14:36 Error: [Error] Call to undefined function _cookieName()
+Request URL: /poorshop/Products
+Stack Trace:
+#0 [internal function]: ProductsController->index()
+#1 D:\xampp\htdocs\poorshop\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\app\webroot\index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2020-07-21 18:19:31 Error: [CakeException] Method cookieName does not exist
+Request URL: /poorshop/Products
+Stack Trace:
+#0 D:\xampp\htdocs\poorshop\app\Controller\ProductsController.php(26): CakeRequest->__call('cookieName', Array)
+#1 [internal function]: ProductsController->index()
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-21 18:21:46 Error: [CakeException] Method cookieName does not exist
+Request URL: /poorshop/Products
+Stack Trace:
+#0 D:\xampp\htdocs\poorshop\app\Controller\ProductsController.php(26): CakeRequest->__call('cookieName', Array)
+#1 [internal function]: ProductsController->index()
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-21 18:21:46 Error: [CakeException] Method cookieName does not exist
+Request URL: /poorshop/Products
+Stack Trace:
+#0 D:\xampp\htdocs\poorshop\app\Controller\ProductsController.php(26): CakeRequest->__call('cookieName', Array)
+#1 [internal function]: ProductsController->index()
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-21 18:21:47 Error: [CakeException] Method cookieName does not exist
+Request URL: /poorshop/Products
+Stack Trace:
+#0 D:\xampp\htdocs\poorshop\app\Controller\ProductsController.php(26): CakeRequest->__call('cookieName', Array)
+#1 [internal function]: ProductsController->index()
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-21 20:10:46 Error: [ParseError] syntax error, unexpected 'var' (T_VAR)
+Request URL: /poorshop/Products
+Stack Trace:
+#0 [internal function]: App::load('ProductsControl...')
+#1 [internal function]: spl_autoload_call('ProductsControl...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(266): class_exists('ProductsControl...')
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-21 20:23:44 Error: [CakeException] Method session does not exist
+Request URL: /poorshop/Products
+Stack Trace:
+#0 D:\xampp\htdocs\poorshop\app\Controller\ProductsController.php(10): CakeRequest->__call('session', Array)
+#1 [internal function]: ProductsController->index()
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-22 12:06:05 Error: [Error] Call to undefined function getype()
+Request URL: /poorshop/Products/toBucket/zupa
+Stack Trace:
+#0 [internal function]: ProductsController->toBucket('zupa')
+#1 D:\xampp\htdocs\poorshop\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\app\webroot\index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2020-07-22 12:37:08 Error: [Error] Call to undefined function string()
+Request URL: /poorshop/Products/toBucket/zupa
+Stack Trace:
+#0 [internal function]: ProductsController->toBucket('zupa')
+#1 D:\xampp\htdocs\poorshop\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\app\webroot\index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2020-07-22 12:39:11 Error: [Error] Call to undefined function exportVar()
+Request URL: /poorshop/Products/toBucket/zupa
+Stack Trace:
+#0 [internal function]: ProductsController->toBucket('zupa')
+#1 D:\xampp\htdocs\poorshop\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\app\webroot\index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2020-07-22 12:40:16 Error: [ParseError] syntax error, unexpected ')'
+Request URL: /poorshop/Products/toBucket/zupa
+Stack Trace:
+#0 [internal function]: App::load('ProductsControl...')
+#1 [internal function]: spl_autoload_call('ProductsControl...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(266): class_exists('ProductsControl...')
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-22 12:47:45 Error: [ParseError] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /poorshop/Products
+Stack Trace:
+#0 [internal function]: App::load('ProductsControl...')
+#1 [internal function]: spl_autoload_call('ProductsControl...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(266): class_exists('ProductsControl...')
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-22 13:14:35 Error: [ParseError] syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+Request URL: /poorshop/Products
+Stack Trace:
+#0 [internal function]: App::load('ProductsControl...')
+#1 [internal function]: spl_autoload_call('ProductsControl...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(266): class_exists('ProductsControl...')
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-22 13:51:27 Error: [MissingActionException] Action ProductsController::toBucket() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProductsController',
+  'action' => 'toBucket',
+)
+Request URL: /poorshop/Products/toBucket/zupa
+Stack Trace:
+#0 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#2 D:\xampp\htdocs\poorshop\app\webroot\index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2020-07-22 17:56:01 Error: [ParseError] syntax error, unexpected ':'
+Request URL: /poorshop/Products
+Stack Trace:
+#0 [internal function]: App::load('ProductsControl...')
+#1 [internal function]: spl_autoload_call('ProductsControl...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(266): class_exists('ProductsControl...')
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-22 17:56:30 Error: [ParseError] syntax error, unexpected ':'
+Request URL: /poorshop/Products
+Stack Trace:
+#0 [internal function]: App::load('ProductsControl...')
+#1 [internal function]: spl_autoload_call('ProductsControl...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(266): class_exists('ProductsControl...')
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-22 17:56:31 Error: [ParseError] syntax error, unexpected ':'
+Request URL: /poorshop/Products
+Stack Trace:
+#0 [internal function]: App::load('ProductsControl...')
+#1 [internal function]: spl_autoload_call('ProductsControl...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(266): class_exists('ProductsControl...')
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-22 17:56:49 Error: [ParseError] syntax error, unexpected ':'
+Request URL: /poorshop/Products
+Stack Trace:
+#0 [internal function]: App::load('ProductsControl...')
+#1 [internal function]: spl_autoload_call('ProductsControl...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(266): class_exists('ProductsControl...')
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-22 17:56:50 Error: [ParseError] syntax error, unexpected ':'
+Request URL: /poorshop/Products
+Stack Trace:
+#0 [internal function]: App::load('ProductsControl...')
+#1 [internal function]: spl_autoload_call('ProductsControl...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(266): class_exists('ProductsControl...')
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-22 17:57:07 Error: [ParseError] syntax error, unexpected ':'
+Request URL: /poorshop/Products
+Stack Trace:
+#0 [internal function]: App::load('ProductsControl...')
+#1 [internal function]: spl_autoload_call('ProductsControl...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(266): class_exists('ProductsControl...')
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-22 17:57:07 Error: [ParseError] syntax error, unexpected ':'
+Request URL: /poorshop/Products
+Stack Trace:
+#0 [internal function]: App::load('ProductsControl...')
+#1 [internal function]: spl_autoload_call('ProductsControl...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(266): class_exists('ProductsControl...')
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-22 17:57:07 Error: [ParseError] syntax error, unexpected ':'
+Request URL: /poorshop/Products
+Stack Trace:
+#0 [internal function]: App::load('ProductsControl...')
+#1 [internal function]: spl_autoload_call('ProductsControl...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(266): class_exists('ProductsControl...')
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-22 17:57:48 Error: [ParseError] syntax error, unexpected ':'
+Request URL: /poorshop/Products
+Stack Trace:
+#0 [internal function]: App::load('ProductsControl...')
+#1 [internal function]: spl_autoload_call('ProductsControl...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(266): class_exists('ProductsControl...')
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-22 17:58:09 Error: [ParseError] syntax error, unexpected ':'
+Request URL: /poorshop/Products
+Stack Trace:
+#0 [internal function]: App::load('ProductsControl...')
+#1 [internal function]: spl_autoload_call('ProductsControl...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(266): class_exists('ProductsControl...')
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-22 17:58:13 Error: [ParseError] syntax error, unexpected ':'
+Request URL: /poorshop/Products
+Stack Trace:
+#0 [internal function]: App::load('ProductsControl...')
+#1 [internal function]: spl_autoload_call('ProductsControl...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(266): class_exists('ProductsControl...')
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-22 17:58:42 Error: [ParseError] syntax error, unexpected ':'
+Request URL: /poorshop/Products
+Stack Trace:
+#0 [internal function]: App::load('ProductsControl...')
+#1 [internal function]: spl_autoload_call('ProductsControl...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(266): class_exists('ProductsControl...')
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-22 17:58:43 Error: [ParseError] syntax error, unexpected ':'
+Request URL: /poorshop/Products
+Stack Trace:
+#0 [internal function]: App::load('ProductsControl...')
+#1 [internal function]: spl_autoload_call('ProductsControl...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(266): class_exists('ProductsControl...')
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-22 17:58:43 Error: [ParseError] syntax error, unexpected ':'
+Request URL: /poorshop/Products
+Stack Trace:
+#0 [internal function]: App::load('ProductsControl...')
+#1 [internal function]: spl_autoload_call('ProductsControl...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(266): class_exists('ProductsControl...')
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-07-22 18:08:33 Error: [ParseError] syntax error, unexpected ';', expecting ')'
+Request URL: /poorshop/Products
+Stack Trace:
+#0 D:\xampp\htdocs\poorshop\lib\Cake\View\View.php(933): View->_evaluate('D:\\xampp\\htdocs...', Array)
+#1 D:\xampp\htdocs\poorshop\lib\Cake\View\View.php(473): View->_render('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\poorshop\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 D:\xampp\htdocs\poorshop\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#5 D:\xampp\htdocs\poorshop\app\webroot\index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2020-09-02 10:57:15 Error: [MissingControllerException] Controller class IndexController could not be found.
+Exception Attributes: array (
+  'class' => 'IndexController',
+  'plugin' => NULL,
+)
+Request URL: /poorshop/index
+Stack Trace:
+#0 D:\xampp\htdocs\poorshop\app\webroot\index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2020-09-02 10:57:48 Error: [MissingControllerException] Controller class Index.ctpController could not be found.
+Exception Attributes: array (
+  'class' => 'Index.ctpController',
+  'plugin' => NULL,
+)
+Request URL: /poorshop/index.ctp
+Stack Trace:
+#0 D:\xampp\htdocs\poorshop\app\webroot\index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
